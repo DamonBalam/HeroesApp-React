@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch
 } from "react-router-dom";
-import { AuthContext } from '../components/auth/authContext';
+import { AuthContext } from '../auth/authContext';
 
 import { LoginScreen } from '../components/login/LoginScreen';
 import { DashboardRoutes } from './DashboardRoutes';
